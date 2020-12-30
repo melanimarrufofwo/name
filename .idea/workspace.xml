@@ -11,12 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f1eaf42-a48b-4c07-80f5-dd6de756baa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abis/Tesra.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/generated/schema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subgraph.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/subgraph.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <updated>1608635742764</updated>
       <workItem from="1608635744236" duration="13145000" />
       <workItem from="1608777702149" duration="21159000" />
-      <workItem from="1609310257524" duration="2732000" />
+      <workItem from="1609310257524" duration="3871000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,6 @@
 type TransferCounter @entity {
   id: ID!
   count: Int!
-  totalTransferred: BigInt!
 }
 
 type UserCounter @entity {

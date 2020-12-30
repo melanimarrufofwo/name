@@ -148,40 +148,4 @@ export class User extends Entity {
   set transactionCount(value: i32) {
     this.set("transactionCount", Value.fromI32(value));
   }
-
-  get burnCount(): i32 {
-    let value = this.get("burnCount");
-    return value.toI32();
-  }
-
-  set burnCount(value: i32) {
-    this.set("burnCount", Value.fromI32(value));
-  }
-
-  get burnAmount(): BigInt {
-    let value = this.get("burnAmount");
-    return value.toBigInt();
-  }
-
-  set burnAmount(value: BigInt) {
-    this.set("burnAmount", Value.fromBigInt(value));
-  }
-
-  get approvalCount(): i32 {
-    let value = this.get("approvalCount");
-    return value.toI32();
-  }
-
-  set approvalCount(value: i32) {
-    this.set("approvalCount", Value.fromI32(value));
-  }
-
-  get approvalAmount(): BigInt {
-    let value = this.get("approvalAmount");
-    return value.toBigInt();
-  }
-
-  set approvalAmount(value: BigInt) {
-    this.set("approvalAmount", Value.fromBigInt(value));
-  }
 }
