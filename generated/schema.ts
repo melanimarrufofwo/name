@@ -50,15 +50,6 @@ export class TransferCounter extends Entity {
   set count(value: i32) {
     this.set("count", Value.fromI32(value));
   }
-
-  get totalTransferred(): BigInt {
-    let value = this.get("totalTransferred");
-    return value.toBigInt();
-  }
-
-  set totalTransferred(value: BigInt) {
-    this.set("totalTransferred", Value.fromBigInt(value));
-  }
 }
 
 export class UserCounter extends Entity {

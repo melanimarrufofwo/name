@@ -29,6 +29,13 @@ export function handleTransfer(event: Transfer): void {
     // @ts-ignore
     userTo.balance = userTo.balance + event.params.value
     userTo.save()
+    let transferCounter = TransferCounter.load('singleton')
+    if(transferCounter == null){
+        transferCounter = new TransferCounter('singleton')
+        transferCounter.count = 0
+    }
+    transferCounter.count = transferCounter.count + 1
+    transferCounter.save()
 }
 
 export function handleApproval(event: Approval): void {
