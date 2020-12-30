@@ -25,8 +25,6 @@ export function handleTransfer(event: Transfer): void {
         }
         userCounter.count = userCounter.count + 1
         userCounter.save()
-        userCounter.id = day.toString()
-        userCounter.save()
     }
     // @ts-ignore
     userTo.balance = userTo.balance + event.params.value
