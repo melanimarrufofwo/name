@@ -1,0 +1,32 @@
+specVersion: 0.0.2
+description: Tesra for Ethereum
+repository: https://github.com/melanimarrufofwo/tesra-subgraph
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Tesra
+    network: mainnet
+    source:
+      address: "0x58959E0C71080434f237bD42d07Cd84B74CeF438"
+      abi: Tesra
+      startBlock: 6098288
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      entities:
+        - TransferCounter
+        - UserCounter
+        - User
+      abis:
+        - name: Tesra
+          file: Tesra/abis/Tesra.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+        - event: Approval(indexed address,indexed address,uint256)
+          handler: handleApproval
+        - event: Burn(indexed address,uint256)
+          handler: handleBurn
+      file: Tesra/Tesra.wasm

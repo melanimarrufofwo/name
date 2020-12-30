@@ -1,0 +1,21 @@
+type TransferCounter @entity {
+  id: ID!
+  count: Int!
+  totalTransferred: BigInt!
+}
+
+type UserCounter @entity {
+  id: ID!
+  count: Int!
+}
+
+type User @entity {
+  id: ID!
+  address: String!
+  balance: BigInt!
+  transactionCount: Int!
+  burnCount: Int!
+  burnAmount: BigInt!
+  approvalCount: Int!
+  approvalAmount: BigInt!
+}
