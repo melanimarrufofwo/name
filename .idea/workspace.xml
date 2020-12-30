@@ -11,6 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f1eaf42-a48b-4c07-80f5-dd6de756baa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Tesra/Tesra.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/build/Tesra/Tesra.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/build/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generated/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/generated/schema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.ts" afterDir="false" />
@@ -48,7 +51,7 @@
       <updated>1608635742764</updated>
       <workItem from="1608635744236" duration="13145000" />
       <workItem from="1608777702149" duration="21159000" />
-      <workItem from="1609310257524" duration="3871000" />
+      <workItem from="1609310257524" duration="5450000" />
     </task>
     <servers />
   </component>

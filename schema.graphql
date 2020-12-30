@@ -13,4 +13,8 @@ type User @entity {
   address: String!
   balance: BigInt!
   transactionCount: Int!
+  burnCount: Int!
+  burnAmount: BigInt!
+  approvalCount: Int!
+  approvalAmount: BigInt!
 }
